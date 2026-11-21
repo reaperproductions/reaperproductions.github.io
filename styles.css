@@ -219,7 +219,7 @@ section h2.red { color: var(--red-bright); text-shadow: 2px 2px 0 #000; }
 .casefile {
   background: var(--bg2);
   color: var(--ink);
-  border: 1px solid var(--line);
+  border: 2px solid var(--red);
   border-radius: 10px;
   padding: 28px;
   font-family: "Courier Prime", "Courier New", monospace;
