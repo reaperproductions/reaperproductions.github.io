@@ -217,10 +217,11 @@ section h2.red { color: var(--red-bright); text-shadow: 2px 2px 0 #000; }
 
 /* case-file panel (Night Shift) */
 .casefile {
-  background: var(--paper);
-  color: var(--paper-ink);
-  border-radius: 8px;
-  padding: 32px;
+  background: var(--bg2);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 28px;
   font-family: "Courier Prime", "Courier New", monospace;
 }
 .casefile h3 {
@@ -229,6 +230,7 @@ section h2.red { color: var(--red-bright); text-shadow: 2px 2px 0 #000; }
   letter-spacing: 2px;
   margin: 0 0 4px;
   text-transform: uppercase;
+  color: #fff;
 }
 .casefile .file-no { color: var(--red); font-weight: bold; letter-spacing: 2px; }
 .casefile p { margin: 0 0 14px; }
