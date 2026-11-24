@@ -346,3 +346,28 @@ footer .slogan { margin: 0 0 6px; }
   .merch { grid-template-columns: 1fr; }
   .casefile { padding: 22px; }
 }
+
+/* gift hub item lists */
+.hub-item {
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+    padding: 14px 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .hub-item:last-child { border-bottom: 0; }
+  .hub-name { flex: 1; }
+  .hub-name b { color: #fff; }
+  .hub-name .note { color: var(--muted); font-size: 14px; display: block; margin-top: 2px; }
+  .hub-price { color: var(--red-bright); font-weight: bold; white-space: nowrap; }
+  .hub-buy { white-space: nowrap; }
+  .hub-section { margin-bottom: 40px; }
+  .hub-section h3 {
+    font-family: "Creepster", cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0 0 6px;
+  }
+  .hub-section .hub-total { color: var(--red-bright); font-weight: bold; letter-spacing: 1px; }
+  .hub-local { color: var(--muted); font-style: italic; }
