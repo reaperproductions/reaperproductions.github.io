@@ -33,6 +33,21 @@
   }
   .hub-section .hub-total { color: var(--red-bright); font-weight: bold; letter-spacing: 1px; }
   .hub-local { color: var(--muted); font-style: italic; }
+  .hub-item.bought { opacity: 0.45; }
+  .hub-item.bought .hub-buy { display: none; }
+  .bought-tag {
+    display: inline-block;
+    background: #2a2a2a;
+    color: var(--red-bright);
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px 26px;
+    border-radius: 6px;
+    border: 1px solid var(--red-bright);
+    text-transform: uppercase;
+    font-size: 15px;
+    white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -62,9 +77,9 @@
 
     <div class="casefile">
       <p class="file-no">HOW IT WORKS</p>
-      <h3>Buy it. Message Noah. It goes in the film.</h3>
-      <p>Pick any item below and buy it through the link. Then <strong>message Noah first</strong> — <a href="mailto:reaperproductions737@gmail.com">reaperproductions737@gmail.com</a> or <a href="https://www.facebook.com/share/19RkB7pCwU/" target="_blank" rel="noopener">Reaper Productions on Facebook</a> — to arrange drop-off or shipping. Don't ship anything without checking with him first.</p>
-      <p>Every item on this list is something the film actually needs. If you'd rather give cash, the GoFundMe takes that too — 100% goes to the film.</p>
+      <h3>Message Noah first. Then buy it. It goes in the film.</h3>
+      <p>Pick any item below, then <strong>message Noah first</strong> — <a href="mailto:reaperproductions737@gmail.com">reaperproductions737@gmail.com</a> or <a href="https://www.facebook.com/share/19RkB7pCwU/" target="_blank" rel="noopener">Reaper Productions on Facebook</a> — to check it's still needed. He'll confirm, then you buy it through the link and arrange drop-off or shipping. Don't buy or ship anything without checking with him first.</p>
+      <p>Every item on this list is something the film actually needs. Items marked <strong>BOUGHT</strong> are already covered — please pick something else. If you'd rather give cash, the GoFundMe takes that too — 100% goes to the film.</p>
       <p>
         <a class="btn" href="https://www.gofundme.com/f/help-make-night-shift-happen" target="_blank" rel="noopener">Donate on GoFundMe</a>
       </p>
@@ -72,6 +87,7 @@
 
     <hr class="rule" style="margin: 36px 0;">
 
+    <!-- TO MARK AN ITEM BOUGHT: add class "bought" to its hub-item div and replace its Buy link with <span class="bought-tag">BOUGHT</span> -->
     <!-- LIST 1: PROPS, RIGS, LIGHTING, CONSUMABLES -->
     <div class="hub-section">
       <h3>Props, Rigs &amp; Lighting</h3>
